@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
   logo: {
     width: wp('28.2%'),
     height: hp('14%'),
+    resizeMode: 'contain',
   },
 });
 

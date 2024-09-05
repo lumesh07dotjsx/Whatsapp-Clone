@@ -10,6 +10,7 @@ import {RecentStatusData} from '../data/recentStatusData';
 import FullModal from '../utils/FullModal';
 const RecentStatus = () => {
   const [showStatusModal, setShowStatusModal] = useState(true);
+
   const setTimeUp = itemId => {
     setShowStatusModal(prev => ({...prev, [itemId]: false}));
   };
